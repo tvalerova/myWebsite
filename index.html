@@ -90,8 +90,29 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga esse repudiandae mollitia nostrum, quisquam illo nobis, aliquam beatae magnam rerum. Officia voluptatibus consectetur modi voluptate eveniet iste facere atque ratione?</p>
         <a class="btn btn-flat" href="#">Check it out</a>
       </div>
-    <!-- end of projects div -->
+      <!-- end of projects div -->
     </div>
+
+    <!-- <form method="post" action="#">
+      <div class="row gtr-50">
+        <div class="col-6 col-12-mobile"><input type="text" placeholder="Jméno" /></div>
+        <div class="col-6 col-12-mobile"><input type="text" placeholder="Email" /></div>
+        <div class="col-12"><textarea name="message" placeholder="Vaše zpráva"></textarea></div>
+        <div class="col-12">
+          <ul class="actions special">
+            <li><input type="submit" class="button" value="Odeslat" /></li>
+            <li><input type="reset" class="button alt" value="Smazat" /></li>
+          </ul>
+        </div>
+      </div>
+    </form> -->
+
+    <form action="mail.php" method="POST">
+      <p>Name</p> <input type="text" name="name">
+      <p>Email</p> <input type="text" name="email">
+      <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+      <input type="submit" value="Send"><input type="reset" value="Clear">
+    </form>
 
 
     <!-- end of main content div -->
