@@ -2,111 +2,117 @@
 <html>
 <head>
   <title>Tereza Valerova</title>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="menu">
+  <div class="container">
 
-    <!-- div containing two divs = name, position in one, links to section on the page in the second one -->
-    <div>
-      <!-- div with name and position -->
+    <div class="menu">
+
+      <!-- div containing two divs = name, position in one, links to section on the page in the second one -->
       <div>
-        <h3>Tereza Valerova</h3>
-        <h4>Junior Web Developer</h4>
+        <!-- div with name and position -->
+        <div>
+          <h3>Tereza Valerova</h3>
+          <h4>Junior Web Developer</h4>
+        </div>
+
+        <!-- menu with links to page sections -->
+        <nav>
+          <ul>
+            <li><a href=""></a>Welcome</li>
+            <li><a href=""></a>About Me</li>
+            <li><a href=""></a>Projects</li>
+            <li><a href=""></a>Stack</li>
+            <li><a href=""></a>Contact Me</li>
+          </ul>
+        </nav>
       </div>
 
-      <!-- menu with links to page sections -->
-      <nav>
+      <!-- bottom of menu, links to github, linked in, etc. -->
+      <div>
         <ul>
-          <li><a href=""></a>Welcome</li>
-          <li><a href=""></a>About Me</li>
-          <li><a href=""></a>Projects</li>
-          <li><a href=""></a>Stack</li>
-          <li><a href=""></a>Contact Me</li>
+          <li>
+            <a href="https://www.linkedin.com/in/tereza-valerova-1509b7178/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.hackerrank.com/terezavalerova" target="_blank">
+              <!-- icon needs to be looked at, does not work now -->
+              <i class="fab fa-hackerrank"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/tvalerova" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
         </ul>
-      </nav>
+      </div>
+      <!-- end of div containing two divs = name, position in one, links to section on the page in the second one -->
     </div>
 
-    <!-- bottom of menu, links to github, linked in, etc. -->
-    <div>
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/tereza-valerova-1509b7178/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.hackerrank.com/terezavalerova" target="_blank">
-            <!-- icon needs to be looked at, does not work now -->
-            <i class="fab fa-hackerrank"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/tvalerova" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- end of div containing two divs = name, position in one, links to section on the page in the second one -->
-  </div>
-
-  <!-- main content div -->
-  <div>
-    <!-- banner div -->
-    <div class="banner">
-      <h1>Hello, my name is <strong>Tereza</strong></h1>
-      <p>Welcome to my website</p>
-    </div>
-
-    <!-- about me div -->
-    <div class="about-me">
-      <h1>About Me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi optio laudantium non id, corporis eum odit porro ipsa! Quasi dolore error eum provident fugiat dolorem, eius asperiores ducimus quisquam distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias est quibusdam molestiae accusamus ab sint eveniet officiis officia aliquid, id. Provident ea facere aspernatur explicabo sit id. Soluta, voluptatum, eveniet.</p>
-    </div>
-
-    <!-- projects div -->
-    <div class="cards">
-
-      <h1>Projects</h1>
-
-      <div class="card-category">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
-        <h3>VayCar</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui odio, porro dignissimos sequi ex omnis quam reprehenderit ratione deleniti voluptate nesciunt temporibus blanditiis esse odit ipsa at numquam reiciendis. Laborum!</p>
-        <a class="btn btn-flat" href="#">Check it out</a>
+    <!-- main content div -->
+    <div class="main">
+      <!-- banner div -->
+      <div class="banner">
+        <h1>Hello, my name is <strong>Tereza</strong></h1>
+        <p>Welcome to my website</p>
       </div>
 
-      <div class="card-category">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
-        <h3>BetaVision</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sint ea molestiae cupiditate cumque perferendis consequatur voluptate perspiciatis aliquid dignissimos numquam expedita nemo aperiam laboriosam eligendi exercitationem quae provident, voluptatem.</p>
-        <a class="btn btn-flat" href="#">Check it out</a>
+      <!-- about me div -->
+      <div class="about-me">
+        <h1>About Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi optio laudantium non id, corporis eum odit porro ipsa! Quasi dolore error eum provident fugiat dolorem, eius asperiores ducimus quisquam distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias est quibusdam molestiae accusamus ab sint eveniet officiis officia aliquid, id. Provident ea facere aspernatur explicabo sit id. Soluta, voluptatum, eveniet.</p>
       </div>
 
-      <div class="card-category">
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
-        <h3>Boozy Town</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga esse repudiandae mollitia nostrum, quisquam illo nobis, aliquam beatae magnam rerum. Officia voluptatibus consectetur modi voluptate eveniet iste facere atque ratione?</p>
-        <a class="btn btn-flat" href="#">Check it out</a>
+      <!-- projects div -->
+      <div class="cards">
+
+        <h1>Projects</h1>
+
+        <div class="card-category">
+          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
+          <h3>VayCar</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui odio, porro dignissimos sequi ex omnis quam reprehenderit ratione deleniti voluptate nesciunt temporibus blanditiis esse odit ipsa at numquam reiciendis. Laborum!</p>
+          <a class="btn btn-flat" href="#">Check it out</a>
+        </div>
+
+        <div class="card-category">
+          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
+          <h3>BetaVision</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sint ea molestiae cupiditate cumque perferendis consequatur voluptate perspiciatis aliquid dignissimos numquam expedita nemo aperiam laboriosam eligendi exercitationem quae provident, voluptatem.</p>
+          <a class="btn btn-flat" href="#">Check it out</a>
+        </div>
+
+        <div class="card-category">
+          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
+          <h3>Boozy Town</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga esse repudiandae mollitia nostrum, quisquam illo nobis, aliquam beatae magnam rerum. Officia voluptatibus consectetur modi voluptate eveniet iste facere atque ratione?</p>
+          <a class="btn btn-flat" href="#">Check it out</a>
+        </div>
+        <!-- end of projects div -->
       </div>
-      <!-- end of projects div -->
+
+      <!-- form div -->
+      <div>
+        <form action="mail.php" method="POST">
+          <div><input type="text" name="name", placeholder="Name"></div>
+          <div><input type="text" name="email", placeholder="Email"></div>
+          <div><textarea name="message" placeholder="Message" rows="6" cols="25"></textarea></div>
+          <input type="submit" value="Send"><input type="reset" value="Clear">
+        </form>
+      </div>
+
+      <!-- end of main content div -->
     </div>
-
-    <!-- form div -->
-    <div>
-    <form action="mail.php" method="POST">
-      <div><input type="text" name="name", placeholder="Name"></div>
-      <div><input type="text" name="email", placeholder="Email"></div>
-      <div><textarea name="message" placeholder="Message" rows="6" cols="25"></textarea></div>
-      <input type="submit" value="Send"><input type="reset" value="Clear">
-    </form>
   </div>
 
-    <!-- end of main content div -->
-  </div>
 
   <footer>
     <p>Design and content by Tereza Valerova. 2020.</p>
