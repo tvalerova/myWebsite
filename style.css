@@ -13,9 +13,6 @@ ul{
   list-style-type: none;
 }
 
-a {
-  text-decoration: none;
-}
 
 
  /* sidenav css */
@@ -48,9 +45,14 @@ a {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
-  font-size: 36px;
+  right: 1rem;
+  font-size: 2rem;
   margin-left: 50px;
+  padding: 0em;
+}
+
+.openbtn{
+  padding: .5em;
 }
 
 #main {
@@ -72,9 +74,18 @@ a {
   background-position: center;
 /*  padding: 150px 0;
 */  height: 100vh;
+  position: relative;
 }
 
-.banner h1 {
+.banner-header{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h4 {
   margin: 0;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 2em;
