@@ -151,10 +151,10 @@ a {
 }
 
 
-
+/* contact form styling */
 
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
+input[type=text], textarea {
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
@@ -166,7 +166,7 @@ input[type=text], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type=submit],[type=reset] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -179,10 +179,13 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+input[type=reset]:hover {
+    background-color: #45a049;
+}
 
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+/*    background-color: #f2f2f2;
+*/    padding: 20px;
 }
