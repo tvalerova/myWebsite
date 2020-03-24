@@ -2,18 +2,18 @@
   margin: 0;
   padding: 0;
   font-weight: lighter;
+  color: #818181;
 }
 
 html{
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
-  color: #818181;
+
 }
 
 ul{
   list-style-type: none;
 }
-
 
 
  /* sidenav css */
@@ -27,16 +27,24 @@ ul{
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
 }
 
-.sidenav a, h5, h4, .fas, .far {
-  padding: 0.5rem;
-  text-decoration: none;
-  font-size: 1em;
+.sidenav a, p, .fas, .far {
+  padding: 1rem;
+/*  text-decoration: none; doesn't work
+*/  font-size: 1em;
   color: #818181;
   display: block;
   transition: 0.3s;
+}
+
+.menu-item{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item a {
+  text-decoration: none;
 }
 
 .fas, .far{
@@ -52,7 +60,6 @@ ul{
   top: 0;
   right: 1rem;
   font-size: 2rem;
-  margin-left: 50px;
   padding: 0em;
 }
 
@@ -63,17 +70,16 @@ ul{
 
 #main {
   transition: margin-left .5s;
-/*  padding: 16px;
-*/}
-
-.menu-item{
-  /*padding-left: 1em;
-  padding-right: 1em;*/
 }
 
 .logos{
-  position: fixed;
-  bottom: 0px;
+  position: absolute;
+  bottom: 0;
+}
+
+.logos-items{
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (max-height: 450px) {
