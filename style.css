@@ -12,18 +12,7 @@ ul{
   list-style-type: none;
 }
 
-/*.container{
-  display: flex;
-}
-
-.menu{
-  min-width: 300px;
-  padding: 20px;
-  height: 100vh;
-}*/
-
-
-
+ /* sidenav css */
 .sidenav {
   height: 100%;
   width: 0;
@@ -67,5 +56,3 @@ ul{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-
