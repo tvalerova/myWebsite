@@ -16,109 +16,107 @@
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div>
-      <h3>Tereza Valerova</h3>
-      <h4>Junior Web Developer</h4>
+      <h4>Tereza Valerova</h4>
+      <h5>Code Enthusiast</h5>
     </div>
-    <ul>
-      <li><a href="#welcome">Welcome</a></li>
-      <li><a href="#about-me">About Me</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="">Stack</a></li>
-      <li><a href="#contact">Contact Me</a></li>
-    </ul>
+    <div class="d-flex justify-content-between menu-item"><a href="#welcome">Welcome</a><i class="fas fa-home"></i></div>
+    <div class="d-flex justify-content-between menu-item"><a href="#about-me">About Me</a><i class="far fa-address-card"></i></div>
+    <div class="d-flex justify-content-between menu-item"><a href="#projects">Projects</a><i class="fas fa-list-ul"></i></div>
+    <div class="d-flex justify-content-between menu-item"><a href="">Stack</a><i class="fas fa-cubes"></i></div>
+    <div class="d-flex justify-content-between menu-item"><a href="#contact">Contact Me</a><i class="far fa-envelope"></i></div>
   </div>
 
   <div id="main">
 
-        <!-- banner div -->
+    <!-- banner div -->
 
-        <div class="banner" id="welcome" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(photos/background.jpg);">
-            <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
-            <div class="banner-header">
-            <p class="d-flex justify-content-center">Hello, my name is Tereza</p>
-            <p class="d-flex justify-content-center">Welcome to my website</p>
-            </div>
-        </div>
-
-
-
-        <!-- about me div -->
-        <div id="about-me">
-          <h4>About Me</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi optio laudantium non id, corporis eum odit porro ipsa! Quasi dolore error eum provident fugiat dolorem, eius asperiores ducimus quisquam distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias est quibusdam molestiae accusamus ab sint eveniet officiis officia aliquid, id. Provident ea facere aspernatur explicabo sit id. Soluta, voluptatum, eveniet.</p>
-        </div>
-
-        <!-- projects div -->
-        <h4 id="projects" class="d-flex justify-content-center">Projects</h4>
-        <div class="cards">
+    <div class="banner" id="welcome" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(photos/background.jpg);">
+      <span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
+      <div class="banner-heade">
+        <p class="d-flex justify-content-center">Hello, my name is Tereza</p>
+        <p class="d-flex justify-content-center">Welcome to my website</p>
+      </div>
+    </div>
 
 
-          <div class="card-category">
-            <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
-            <h5 class="project-name">VayCar</h5>
-            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui odio, porro dignissimos sequi ex omnis quam reprehenderit ratione deleniti voluptate nesciunt temporibus blanditiis esse odit ipsa at numquam reiciendis. Laborum!</p>
-            <a class="btn btn-outline-secondary" href="https://vaycar.herokuapp.com/" target="_blank">Check it out</a>
-          </div>
 
-          <div class="card-category">
-            <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
-            <h5 class="project-name">BetaVision</h5>
-            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sint ea molestiae cupiditate cumque perferendis consequatur voluptate perspiciatis aliquid dignissimos numquam expedita nemo aperiam laboriosam eligendi exercitationem quae provident, voluptatem.</p>
-            <a class="btn btn-outline-secondary" href="http://www.betavision.rocks/" target="_blank">Check it out</a>
-          </div>
+    <!-- about me div -->
+    <div id="about-me">
+      <h4>A Little Bit About Me</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi optio laudantium non id, corporis eum odit porro ipsa! Quasi dolore error eum provident fugiat dolorem, eius asperiores ducimus quisquam distinctio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias est quibusdam molestiae accusamus ab sint eveniet officiis officia aliquid, id. Provident ea facere aspernatur explicabo sit id. Soluta, voluptatum, eveniet.</p>
+    </div>
 
-          <div class="card-category">
-            <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
-            <h5 class="project-name">Boozy Town</h5>
-            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga esse repudiandae mollitia nostrum, quisquam illo nobis, aliquam beatae magnam rerum. Officia voluptatibus consectetur modi voluptate eveniet iste facere atque ratione?</p>
-            <a class="btn btn-outline-secondary" href="https://boozytown.herokuapp.com/cocktails" target="_blank">Check it out</a>
-          </div>
-          <!-- end of projects div -->
-        </div>
-
-        <!-- form div -->
-
-        <div class="contact-form container">
-          <div class="row justify-content-center">
-            <div class="col-sm-12 col-lg-6">
-              <h4 id="contact" class="d-flex justify-content-center">Contact Me</h4>
-              <form action="mail.php" method="POST">
-                <input type="text" name="name" placeholder="Your name...">
-                <input type="text" name="email" placeholder="Your email...">
-                <textarea name="message" placeholder="Message..." style="height:200px"></textarea>
-                <div class="d-flex justify-content-between">
-                  <input type="reset" value="Clear"><input type="submit" value="Send">
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+    <!-- projects div -->
+    <h4 id="projects" class="d-flex justify-content-center">Things I have built so far</h4>
+    <div class="cards">
 
 
-        <!-- footer -->
-
-        <footer class="d-flex justify-content-center">
-          <span>Content and design by Tereza Valerova, 2020.</span>
-        </footer>
-
-        <!-- end of main content div -->
+      <div class="card-category">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
+        <h5 class="project-name">VayCar</h5>
+        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui odio, porro dignissimos sequi ex omnis quam reprehenderit ratione deleniti voluptate nesciunt temporibus blanditiis esse odit ipsa at numquam reiciendis. Laborum!</p>
+        <a class="btn btn-outline-secondary" href="https://vaycar.herokuapp.com/" target="_blank">Check it out</a>
       </div>
 
+      <div class="card-category">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
+        <h5 class="project-name">BetaVision</h5>
+        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, sint ea molestiae cupiditate cumque perferendis consequatur voluptate perspiciatis aliquid dignissimos numquam expedita nemo aperiam laboriosam eligendi exercitationem quae provident, voluptatem.</p>
+        <a class="btn btn-outline-secondary" href="http://www.betavision.rocks/" target="_blank">Check it out</a>
+      </div>
+
+      <div class="card-category">
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/lunch.jpg" alt="">
+        <h5 class="project-name">Boozy Town</h5>
+        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga esse repudiandae mollitia nostrum, quisquam illo nobis, aliquam beatae magnam rerum. Officia voluptatibus consectetur modi voluptate eveniet iste facere atque ratione?</p>
+        <a class="btn btn-outline-secondary" href="https://boozytown.herokuapp.com/cocktails" target="_blank">Check it out</a>
+      </div>
+      <!-- end of projects div -->
+    </div>
+
+    <!-- form div -->
+
+    <div class="contact-form container">
+      <div class="row justify-content-center">
+        <div class="col-sm-12 col-lg-6">
+          <h4 id="contact" class="d-flex justify-content-center">Contact Me</h4>
+          <form action="mail.php" method="POST">
+            <input type="text" name="name" placeholder="Your name...">
+            <input type="text" name="email" placeholder="Your email...">
+            <textarea name="message" placeholder="Message..." style="height:200px"></textarea>
+            <div class="d-flex justify-content-between">
+              <input type="reset" value="Clear"><input type="submit" value="Send">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <footer class="d-flex justify-content-center">
+      <span>Content and design by Tereza Valerova, 2020.</span>
+    </footer>
+
+    <!-- end of main content div -->
+  </div>
 
 
 
 
-      <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-          document.getElementById("main").style.marginLeft = "250px";
-        }
 
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-          document.getElementById("main").style.marginLeft= "0";
-        }
-      </script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
+      document.getElementById("main").style.marginLeft = "300px";
+    }
 
-    </body>
-    </html>
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+  </script>
+
+</body>
+</html>

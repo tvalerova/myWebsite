@@ -7,6 +7,7 @@
 html{
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
+  color: #818181;
 }
 
 ul{
@@ -29,13 +30,17 @@ ul{
   padding-top: 60px;
 }
 
-.sidenav a, h3, h4 {
-  padding: 8px 8px 8px 32px;
+.sidenav a, h5, h4, .fas, .far {
+  padding: 0.5rem;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1em;
   color: #818181;
   display: block;
   transition: 0.3s;
+}
+
+.fas, .far{
+  line-height: inherit;
 }
 
 .sidenav a:hover {
@@ -53,12 +58,18 @@ ul{
 
 .openbtn{
   padding: .5em;
+  font-size: 2em;
 }
 
 #main {
   transition: margin-left .5s;
 /*  padding: 16px;
 */}
+
+.menu-item{
+  /*padding-left: 1em;
+  padding-right: 1em;*/
+}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
