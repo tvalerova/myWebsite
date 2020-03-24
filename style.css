@@ -32,7 +32,7 @@ ul{
 .sidenav a, p, .fas, .far {
   padding: 1rem;
 /*  text-decoration: none; doesn't work
-*/  font-size: 1em;
+*/  font-size: 1.2em;
   color: #818181;
   display: block;
   transition: 0.3s;
@@ -75,9 +75,7 @@ ul{
 .logos{
   position: absolute;
   bottom: 0;
-}
-
-.logos-items{
+  width: 100%;
   display: flex;
   justify-content: space-around;
 }
