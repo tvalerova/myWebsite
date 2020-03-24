@@ -56,8 +56,8 @@ a {
 
 #main {
   transition: margin-left .5s;
-  padding: 16px;
-}
+/*  padding: 16px;
+*/}
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -192,4 +192,9 @@ input[type=reset]:hover {
 
 
 
-/**/
+/*footer css*/
+footer {
+  height: 5em;
+  background-color: #4CAF50;
+  align-items: center;
+}
