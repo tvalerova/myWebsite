@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 </head>
 <body>
   <div class="container-main">
@@ -79,17 +80,16 @@
         </div>
 
         <!-- form div -->
-        <div>
+
+        <div class="container">
           <h3 id="contact">Contact Me</h3>
           <form action="mail.php" method="POST">
-            <div><input type="text" name="name", placeholder="Name"></div>
-            <div><input type="text" name="email", placeholder="Email"></div>
-            <div><textarea name="message" placeholder="Message" rows="6" cols="25"></textarea></div>
+            <input type="text" name="name" placeholder="Your name...">
+            <input type="text" name="email" placeholder="Your email...">
+            <textarea name="message" placeholder="Message..." style="height:200px"></textarea>
             <input type="submit" value="Send"><input type="reset" value="Clear">
           </form>
         </div>
-
-
         <!-- footer -->
 
         <footer>
