@@ -81,18 +81,26 @@
 
         <!-- form div -->
 
-        <div class="container">
-          <h3 id="contact">Contact Me</h3>
-          <form action="mail.php" method="POST">
-            <input type="text" name="name" placeholder="Your name...">
-            <input type="text" name="email" placeholder="Your email...">
-            <textarea name="message" placeholder="Message..." style="height:200px"></textarea>
-            <input type="submit" value="Send"><input type="reset" value="Clear">
-          </form>
+        <div class="contact-form container">
+          <div class="row justify-content-center">
+            <div class="col-sm-12 col-lg-6">
+              <h4 id="contact" class="d-flex justify-content-center">Contact Me</h4>
+              <form action="mail.php" method="POST">
+                <input type="text" name="name" placeholder="Your name...">
+                <input type="text" name="email" placeholder="Your email...">
+                <textarea name="message" placeholder="Message..." style="height:200px"></textarea>
+                <div class="d-flex justify-content-between">
+                  <input type="reset" value="Clear"><input type="submit" value="Send">
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
+
+
         <!-- footer -->
 
-        <footer>
+        <footer class="d-flex justify-content-center">
           <p>Content and design by Tereza Valerova, 2020.</p>
         </footer>
 
@@ -101,21 +109,20 @@
       <!-- end of container div -->
     </div>
 
-  </div>
 
 
 
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
-    }
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
 
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
-    }
-  </script>
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+    </script>
 
-</body>
-</html>
+  </body>
+  </html>
