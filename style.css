@@ -112,39 +112,66 @@ ul{
   text-align: center;
 }
 
+.first-div{
+    background-color: #FCF7FF;
+}
+
 .main-div{
-  margin: 1.5em 3.8em 1.5em 3.8em;
+  margin: 0em 6em 0em 6em;
 }
 
 /* about me section css*/
-#about-me{
+#about-me, #projects{
 /*  padding: 8rem 10rem;
 */  text-align: justify;
-    padding: 4em 0 4em 0;
+    padding-top: 4rem;
 }
 
 
 /* projects css */
 .card-category {
 margin-bottom: 2em;
+height: 100%;
+position: relative;
+box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+padding: 1em;
+border-radius: .3em;
 }
 
 .card-category img {
   width: 100%;
-  height: 250px;
-  border-radius: 5px;
+  border-radius: .3em;
   margin-bottom: 1.5em;
 }
 
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 3.8em;
+  grid-gap: 6em;
 }
 
-h4, h5 {
+.main-div h4, .main-div h5{
   padding-bottom: .5em;
-  color: #001427;
+  color: #464655;
+}
+
+.main-div p{
+  color: #7A7D7D;
+}
+
+.check-it{
+  position: absolute;
+  bottom: 1em;
+}
+
+.grey-button{
+  border: 1px solid #ccc;
+  padding: 1em 2em 1em 2em;
+  border-radius: 0.3em;
+}
+
+.project-description{
+  padding-bottom: 2em;
 }
 
 
@@ -200,7 +227,6 @@ input[type=text], textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit],[type=reset] {
-    background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -220,14 +246,15 @@ input[type=reset]:hover {
 .contact-form {
     border-radius: 5px;
 /*    background-color: #f2f2f2;
-*/    padding-bottom: 20px;
+*/    padding-bottom: 4rem;
+padding-top: 6rem;
 }
 
 
 
 /*footer css*/
 footer {
-  height: 5em;
+  height: 6em;
   background-color: #4CAF50;
   align-items: center;
 }
