@@ -37,6 +37,15 @@ ul{
   transition: 0.3s;
 }
 
+.my-name{
+  padding: 2rem 1rem 2rem 1rem;
+}
+
+.my-name img{
+  width: 48px;
+  border-radius: 0.2em;
+}
+
 .menu-item{
   display: flex;
   justify-content: space-between;
@@ -54,7 +63,6 @@ ul{
 
 .openbtn{
   padding: .5em;
-  font-size: 2em;
   position: fixed;
   top: 0;
 }
@@ -83,8 +91,7 @@ ul{
 .banner {
   background-size: cover;
   background-position: center;
-/*  padding: 150px 0;
-*/  height: 100vh;
+  height: 100vh;
   position: relative;
 }
 
