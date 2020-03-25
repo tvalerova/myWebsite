@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-weight: lighter;
-  color: #818181;
 }
 
 html{
@@ -24,21 +23,23 @@ ul{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #001427;
+  color: #FFD9DA;
   overflow-x: hidden;
   transition: 0.5s;
 }
 
-.sidenav a, p, .fas, .far {
-  padding: 1rem;
+.sidenav a, .sidenav p, .fas, .far {
+  padding: .5rem 1rem ;
   font-size: 1.2em;
-  color: #818181;
+  color: #FFD9DA;
   display: block;
   transition: 0.3s;
+  line-height: inherit;
 }
 
 .my-name{
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2.6rem 1rem 2rem 1rem;
 }
 
 .my-name img{
@@ -51,20 +52,21 @@ ul{
   justify-content: space-between;
 }
 
-.fas, .far{
-  line-height: inherit;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
+.sidenav a:hover, .fab:hover {
+  color: #DBA8AC;
   text-decoration: none;
 }
 
 
 .openbtn{
-  padding: .5em;
+  padding: .02em .5em;
   position: fixed;
   top: 0;
+  color: #FFD9DA;
+  background-color: #F8F4E3;
+  opacity: .5;
+  border-radius: 0.2em;
+  margin: 0.4rem 0rem 0rem 0.4rem;
 }
 
 #main {
@@ -79,10 +81,10 @@ ul{
   justify-content: space-around;
 }
 
-@media screen and (max-height: 450px) {
+/*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+}*/
 
 
 
@@ -103,16 +105,12 @@ ul{
   transform: translate(-50%, -50%);
 }
 
-.banner h4 {
-  margin: 0;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 2em;
-}
 
-.banner p {
+.banner-welcome {
   font-size: 1.5em;
-  opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  color: #FFD9DA;
+  text-align: center;
 }
 
 
