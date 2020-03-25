@@ -15,7 +15,7 @@ ul{
 }
 
 
- /* sidenav css */
+/* sidenav css */
 .sidenav {
   height: 100%;
   width: 0;
@@ -83,59 +83,83 @@ ul{
 /*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}*/
+  }*/
 
 
 
-/*banner css*/
+  /*banner css*/
 
-.banner {
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  position: relative;
-}
+  .banner {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
 
-.banner-header{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  .banner-header{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 
-.banner-welcome {
-  font-size: 1.5em;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-  color: #FFD9DA;
-  text-align: center;
-}
+  .banner-welcome {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    color: #FFD9DA;
+    text-align: center;
+  }
 
-.first-div{
+  .first-div{
     background-color: #FCF7FF;
-}
+  }
 
-.main-div{
-  margin: 0em 6em 0em 6em;
-}
+  .main-div{
+    margin: 0em 6em 0em 6em;
+  }
 
-/* about me section css*/
-#about-me, #projects{
+  /* about me section css*/
+  #about-me, #projects{
 /*  padding: 8rem 10rem;
 */  text-align: justify;
-    padding-top: 4rem;
+padding-top: 6rem;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #about-me {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #about-me {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  #about-me {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }
 
 
 /* projects css */
 .card-category {
-margin-bottom: 2em;
-height: 100%;
-position: relative;
-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-padding: 1em;
-border-radius: .3em;
+  margin-bottom: 2em;
+  height: 100%;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  border-radius: .3em;
 }
 
 .card-category img {
@@ -143,6 +167,12 @@ border-radius: .3em;
   border-radius: .3em;
   margin-bottom: 1.5em;
 }
+
+.card-category a:hover {
+  text-decoration: none;
+  color: #001427;
+}
+
 
 .cards {
   display: grid;
@@ -164,9 +194,11 @@ border-radius: .3em;
   bottom: 1em;
 }
 
+
 .grey-button{
-  border: 1px solid #ccc;
-  padding: 1em 2em 1em 2em;
+  border: .05em solid #ccc;
+  color: #7A7D7D;
+  padding: .5em 1em .5em 1em;
   border-radius: 0.3em;
 }
 
@@ -212,49 +244,39 @@ border-radius: .3em;
 
 
 /* contact form styling */
-
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit],[type=reset] {
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  border: 1px solid #ccc;
+  color: #7A7D7D;
+  border: none;
+  cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-input[type=reset]:hover {
-    background-color: #45a049;
+input[type=submit]:hover, input[type=reset]:hover {
+  color: #001427;
 }
 
-/* Add a background color and some padding around the form */
 .contact-form {
-    border-radius: 5px;
-/*    background-color: #f2f2f2;
-*/    padding-bottom: 4rem;
-padding-top: 6rem;
+  border-radius: 5px;
+  padding-bottom: 4rem;
+  padding-top: 6rem;
 }
-
 
 
 /*footer css*/
 footer {
   height: 6em;
-  background-color: #4CAF50;
+  background-color: #DBA8AC;
   align-items: center;
 }
+
