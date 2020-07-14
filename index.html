@@ -1,104 +1,110 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Tereza Valerova</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Tereza Valerova's personal website, including project info and contact details.">
-  <meta property="og:title" content="Tereza Valerova" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://www.terezavalerova.com/" />
-  <meta property="og:image" content="photos/background2.jpg" />
-  <meta property="og:description" content="Tereza Valerova's personal website, including project info and contact details." />
-  <meta property="og:site_name" content="Tereza's personal website" />
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="assets/css/all.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-  <link rel="shortcut icon" href="photos/sun.ico" type="image/x-icon">
-  <link rel="icon" href="photos/sun.ico" type="image/x-icon">
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Tereza Valerova</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tereza Valerova's personal website, including project info and contact details.">
+    <meta property="og:title" content="Tereza Valerova" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://www.terezavalerova.com/" />
+    <meta property="og:image" content="photos/background2.jpg" />
+    <meta property="og:description" content="Tereza Valerova's personal website, including project info and contact details." />
+    <meta property="og:site_name" content="Tereza's personal website" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="assets/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="photos/sun.ico" type="image/x-icon">
+    <link rel="icon" href="photos/sun.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 </head>
+
 <body>
 
-  <!-- sidenav -->
+    <!-- sidenav -->
 
-  <div id="mySidenav" class="sidenav">
-    <div class="my-name d-flex justify-content-between">
-      <div>
-        <h6>Tereza Valerova</h6>
-        <div>Code Enthusiast</div>
-      </div>
-      <div>
-        <img src="photos/holiday.jpg" alt="">
-      </div>
-    </div>
-
-    <div class="menu-item"><a href="#welcome">Welcome</a><i class="fas fa-home"></i></div>
-    <div class="menu-item"><a href="#about-me">About Me</a><i class="far fa-address-card"></i></div>
-    <div class="menu-item"><a href="#projects">Projects</a><i class="fas fa-list-ul"></i></div>
-    <!-- <div class="menu-item"><a href="">Stack</a><i class="fas fa-cubes"></i></div> -->
-    <div class="menu-item"><a href="#contact">Contact Me</a><i class="far fa-envelope"></i></div>
-
-    <div class="logos">
-      <a href="https://www.linkedin.com/in/tereza-valerova-1509b7178/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/tvalerova" target="_blank"><i class="fab fa-github-square"></i></a>
-      <a href="https://www.hackerrank.com/profile/terezavalerova" target="_blank"><i class="fab fa-hackerrank"></i></a>
-      <!-- <a href=""><i class="fab fa-slack"></i></a> -->
-    </div>
-    <!-- end of sidenav -->
-  </div>
-
-  <div id="main">
-
-    <!-- banner div -->
-
-    <div class="banner" id="welcome" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
-     <span style="font-size:1.6em;cursor:pointer" class="openbtn" onclick="toggleNav()">☰</span>
-     <div class="banner-header">
-      <div class="banner-welcome">Hello, my name is Tereza</div>
-      <div class="banner-welcome">Welcome to my personal website</div>
-    </div>
-  </div>
-
-  <div class="first-div">
-    <div class="main-div">
-      <!-- about me div -->
-      <div id="about-me">
-        <h5>A Little Bit About Me</h5>
-        <p>My name is Tereza. I have lived in the Netherlands since 2014 and for most of that time I worked for an accommodation search tech company in various positions in their Workfoce Management Department. At one point I realized however that I didn't see myself in this field of work longterm and I didn't feel passionate about the job. I started to learn how to code and eventually quit my job to attend a coding bootcamp in Amsterdam called Le Wagon which I recently graduated from. I took me a while to figure out what I want to do but now I belive coding is the right thing for me. It is something I feel passionate about and I am excited for the future.</p>
-      </div>
-
-      <!-- projects div -->
-      <h5 id="projects">Things I have built so far</h5>
-      <div class="cards">
-
-        <div class="card-category">
-          <img src="https://images.unsplash.com/photo-1571499765441-a7ade4ad7c19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <h5 class="project-name">VayCar</h5>
-          <p class="project-description">A group project that I worked on at Le Wagon with three other students.
-          We had a week to build a market place web app with Ruby on Rails, and we created a platform for airport car parking and hire. We developed both car owner and car renter journeys - a user could list their car for rent at an airport or look for cars to rent, send a request to the owner, and leave a review after they used the car.</p>
-          <a class="check-it grey-button" href="https://vaycar.herokuapp.com/" target="_blank">Check it out</a>
+    <div id="mySidenav" class="sidenav">
+        <div class="my-name d-flex justify-content-between">
+            <div>
+                <h6>Tereza Valerova</h6>
+                <div>Code Enthusiast</div>
+            </div>
+            <div>
+                <img src="photos/holiday.jpg" alt="">
+            </div>
         </div>
 
-        <div class="card-category">
-          <img src="https://images.unsplash.com/photo-1483706571191-85c0c76b1947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <h5 class="project-name">BetaVision</h5>
-          <p class="project-description">A final two-week Ruby on Rails project I worked on with three other students at Le Wagon. It is a platform where companies can sign up and upload a beta version of their website/ app, select what their target market through multiple filters and get feedback from users who registered as testers. Companies pay per test. After the feedback is received, they can give a review to the tester based on how useful their feedback was.</p>
-          <a class="check-it grey-button" href="http://www.betavision.rocks/" target="_blank">Check it out</a>
+        <div class="menu-item"><a href="#welcome">Welcome</a><i class="fas fa-home"></i></div>
+        <div class="menu-item"><a href="#about-me">About Me</a><i class="far fa-address-card"></i></div>
+        <div class="menu-item"><a href="#projects">Projects</a><i class="fas fa-list-ul"></i></div>
+        <!-- <div class="menu-item"><a href="">Stack</a><i class="fas fa-cubes"></i></div> -->
+        <div class="menu-item"><a href="#contact">Contact Me</a><i class="far fa-envelope"></i></div>
+
+        <div class="logos">
+            <a href="https://www.linkedin.com/in/tereza-valerova-1509b7178/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/tvalerova" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.hackerrank.com/profile/terezavalerova" target="_blank"><i class="fab fa-hackerrank"></i></a>
+            <!-- <a href=""><i class="fab fa-slack"></i></a> -->
+        </div>
+        <!-- end of sidenav -->
+    </div>
+
+    <div id="main">
+
+        <!-- banner div -->
+
+        <div class="banner" id="welcome" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+            <span style="font-size:1.6em;cursor:pointer" class="openbtn" onclick="toggleNav()">☰</span>
+            <div class="banner-header">
+                <div class="banner-welcome">Hello, my name is Tereza</div>
+                <div class="banner-welcome">Welcome to my personal website</div>
+            </div>
         </div>
 
-        <div class="card-category">
-          <img src="https://images.unsplash.com/photo-1514361726087-38371321b5cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
-          <h5 class="project-name">Boozy Town</h5>
-          <p class="project-description">My first solo Ruby on Rails project created at Le Wagon. It is a cocktail recipe manager app where a user can add a cocktail with photo to the collectionn, view specifics of other cocktails: ingredients and their amounts, reviews, or they can add or remove ingredients and leave a review to already existing cocktails.</p>
-          <a class="check-it grey-button" href="https://boozytown.herokuapp.com/cocktails" target="_blank">Check it out</a>
-        </div>
-        <!-- end of projects div -->
-      </div>
+        <div class="first-div">
+            <div class="main-div">
+                <!-- about me div -->
+                <div id="about-me">
+                    <h5>A Little Bit About Me</h5>
+                    <p>My name is Tereza. I have lived in the Netherlands since 2014 and for most of that time I worked for an accommodation search tech company in various positions in their Workfoce Management Department. At one point I realized however
+                        that I didn't see myself in this field of work longterm and I didn't feel passionate about the job. I started to learn how to code and eventually quit my job to attend a coding bootcamp in Amsterdam called Le Wagon which I recently
+                        graduated from. I took me a while to figure out what I want to do but now I belive coding is the right thing for me. It is something I feel passionate about and I am excited for the future.</p>
+                </div>
 
-      <!-- form div -->
-      <div class="contact-form">
+                <!-- projects div -->
+                <h5 id="projects">Things I have built so far</h5>
+                <div class="cards">
+
+                    <div class="card-category">
+                        <img src="https://images.unsplash.com/photo-1571499765441-a7ade4ad7c19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+                        <h5 class="project-name">VayCar</h5>
+                        <p class="project-description">A group project that I worked on at Le Wagon with three other students. We had a week to build a market place web app with Ruby on Rails, and we created a platform for airport car parking and hire. We developed both car owner and
+                            car renter journeys - a user could list their car for rent at an airport or look for cars to rent, send a request to the owner, and leave a review after they used the car.</p>
+                        <a class="check-it grey-button" href="https://vaycar.herokuapp.com/" target="_blank">Check it out</a>
+                    </div>
+
+                    <div class="card-category">
+                        <img src="https://images.unsplash.com/photo-1483706571191-85c0c76b1947?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+                        <h5 class="project-name">BetaVision</h5>
+                        <p class="project-description">A final two-week Ruby on Rails project I worked on with three other students at Le Wagon. It is a platform where companies can sign up and upload a beta version of their website/ app, select what their target market through multiple
+                            filters and get feedback from users who registered as testers. Companies pay per test. After the feedback is received, they can give a review to the tester based on how useful their feedback was.</p>
+                        <a class="check-it grey-button" href="http://www.betavision.rocks/" target="_blank">Check it out</a>
+                    </div>
+
+                    <div class="card-category">
+                        <img src="https://images.unsplash.com/photo-1514361726087-38371321b5cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="">
+                        <h5 class="project-name">Boozy Town</h5>
+                        <p class="project-description">My first solo Ruby on Rails project created at Le Wagon. It is a cocktail recipe manager app where a user can add a cocktail with photo to the collectionn, view specifics of other cocktails: ingredients and their amounts, reviews,
+                            or they can add or remove ingredients and leave a review to already existing cocktails.</p>
+                        <a class="check-it grey-button" href="https://boozytown.herokuapp.com/cocktails" target="_blank">Check it out</a>
+                    </div>
+                    <!-- end of projects div -->
+                </div>
+
+                <!-- form div -->
+                <!-- <div class="contact-form">
         <div class="row justify-content-center">
           <div class="col-sm-12 col-lg-12">
             <h5 id="contact" class="">Contact Me</h5>
@@ -113,47 +119,46 @@
             </form>
           </div>
         </div>
-      </div>
-      <!-- end of main-div -->
+      </div> -->
+                <!-- end of main-div -->
+            </div>
+            <!-- end of first-div -->
+        </div>
+
+        <!-- footer -->
+        <footer class="d-flex justify-content-center">
+            <span>Content and design by Tereza Valerova, 2020.</span>
+        </footer>
+        <!-- end of main content div -->
     </div>
-    <!-- end of first-div -->
-  </div>
 
-  <!-- footer -->
-  <footer class="d-flex justify-content-center">
-    <span>Content and design by Tereza Valerova, 2020.</span>
-  </footer>
-  <!-- end of main content div -->
-</div>
+    <script>
+        function toggleNav() {
+            let sideNav = document.getElementById("mySidenav");
+            let main = document.getElementById("main");
 
-<script>
-  function toggleNav() {
-    let sideNav = document.getElementById("mySidenav");
-    let main = document.getElementById("main");
+            if (sideNav.style.width == '300px') {
+                sideNav.style.width = '0px';
+                main.style.marginLeft = '0px';
+            } else {
+                sideNav.style.width = '300px';
+                main.style.marginLeft = '300px';
+            }
+        }
+    </script>
 
-    if (sideNav.style.width == '300px'){
-      sideNav.style.width = '0px';
-      main.style.marginLeft = '0px';
-    }
-    else{
-      sideNav.style.width = '300px';
-      main.style.marginLeft = '300px';
-    }
-  }
+    <script>
+        $("#contact-form").submit(function(e) {
+            e.preventDefault();
 
-</script>
-
-<script>
-  $("#contact-form").submit(function(e) {
-    e.preventDefault();
-
-    var $form = $(this);
-    $.post($form.attr("action"), $form.serialize()).then(function() {
-      alert("Thank you for contacting me. I will get back to you as soon as possible.");
-    });
-  document.getElementById("contact-form").reset();
-  });
-</script>
+            var $form = $(this);
+            $.post($form.attr("action"), $form.serialize()).then(function() {
+                alert("Thank you for contacting me. I will get back to you as soon as possible.");
+            });
+            document.getElementById("contact-form").reset();
+        });
+    </script>
 
 </body>
+
 </html>
